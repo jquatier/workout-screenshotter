@@ -1,7 +1,7 @@
 workout-screenshotter
 =====================
 
-This is Serverless project for screenshotting my favorite fitness page for the daily workout. It runs headless Chrome in Lambda, logs into the site, takes a screenshot, archives it, and sends me a push notification.
+This is Serverless project for screenshotting my favorite fitness page for the daily workout. It runs headless Chrome in Lambda, logs into the site, takes a screenshot, archives it, and sends me a push notification. Currently configured via cron to run every day at 12:00PM (PST).
 
 Uses
 ------------------
