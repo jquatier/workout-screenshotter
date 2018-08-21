@@ -9,11 +9,9 @@
   "author": "JQ",
   "license": "MIT",
   "dependencies": {
-    "chrome-launcher": "^0.10.2",
     "chrome-remote-interface": "^0.26.1",
     "dropbox": "^4.0.9",
-    "isomorphic-fetch": "^2.2.1",
-    "node-fetch": "^2.2.0"
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^5.4.0",
