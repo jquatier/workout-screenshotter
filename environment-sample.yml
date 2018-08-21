@@ -1,0 +1,7 @@
+DEBUG: '*'
+PAGE_URL: site URL here
+PAGE_LOGIN: login here
+PAGE_PASSWORD: password here
+DROPBOX_ACCESS_TOKEN: token goes here
+PUSHOVER_USER_KEY: key goes here
+PUSHOVER_TOKEN: token goes here

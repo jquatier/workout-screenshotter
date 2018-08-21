@@ -1,0 +1,24 @@
+{
+  "name": "workout-screenshotter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "JQ",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-launcher": "^0.10.2",
+    "chrome-remote-interface": "^0.26.1",
+    "dropbox": "^4.0.9",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "serverless-plugin-chrome": "^1.0.0-54"
+  }
+}

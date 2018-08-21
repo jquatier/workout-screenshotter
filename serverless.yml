@@ -1,0 +1,17 @@
+service: workout-screenshotter
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-west-2
+  environment: ${file(environment.yml)}
+
+plugins:
+  - serverless-plugin-chrome
+
+functions:
+  screenshot:
+    handler: handler.screenshot
+    timeout: 120
+    events:
+      - schedule: cron(0 19 * * ? *)
