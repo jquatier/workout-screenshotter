@@ -64,7 +64,7 @@ async function screenshotWorkout() {
 
     // grab the h1
     const h1 = await Runtime.evaluate({
-      expression: "$('h1.text-align-center:first').html()",
+      expression: "$('.main-content h1:first').html()",
       returnByValue: true
     });
 
