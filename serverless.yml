@@ -14,4 +14,4 @@ functions:
     handler: handler.screenshot
     timeout: 120
     events:
-      - schedule: cron(0 19 * * ? *)
+      - schedule: cron(0 20 * * ? *)

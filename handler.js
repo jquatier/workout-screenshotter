@@ -80,7 +80,7 @@ async function screenshotWorkout() {
       deviceScaleFactor: 0,
       scale: 1,
       width: 375,
-      height: 1200
+      height: 1400
     });
 
     // take screenshot
