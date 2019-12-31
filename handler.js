@@ -80,7 +80,12 @@ async function screenshotWorkout() {
       deviceScaleFactor: 0,
       scale: 1,
       width: 375,
-      height: 1400
+      height: 800
+    });
+
+    // scroll to content
+    await Runtime.evaluate({
+      expression: "$('.main-content h1').get(0).scrollIntoView()"
     });
 
     // take screenshot
