@@ -11,7 +11,7 @@
   "dependencies": {
     "chrome-remote-interface": "^0.26.1",
     "dropbox": "^4.0.9",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^5.4.0",
